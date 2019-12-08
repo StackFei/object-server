@@ -2,11 +2,6 @@ let http = require("http");
 let users = [
   { id: 1, name: "111" },
   { id: 2, name: "11" },
-  { id: 2, name: "8888" },
-  { id: 2, name: "999" },
-  { id: 2, name: "53" },
-  { id: 2, name: "54" },
-  { id: 2, name: "232" },
 ];
 let server = http.createServer(function(req, res) {
   console.log(req.method, req.url);
